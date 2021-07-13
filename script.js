@@ -4,7 +4,7 @@ let mountains_behind = document.getElementById("mountains_behind");
 let moonLight = document.getElementById("moonLight");
 let btn = document.getElementById("btn");
 let mountains_front = document.getElementById("mountains_front");
-let header = document.querySelector('header');
+let header = document.querySelector("header");
 
 window.addEventListener("scroll", function () {
   let value = window.scrollY;
@@ -12,8 +12,8 @@ window.addEventListener("scroll", function () {
   moon.style.top = value * 1.05 + "px";
   mountains_behind.style.top = value * 0.5 + "px";
   mountains_front.style.top = value * 0 + "px";
-  moonLight.style.marginRight = value * 4 + "px";
-  moonLight.style.marginTop = value * 1.5 + "px";
+  moonLight.style.marginRight = value * 2 + "px";
+  moonLight.style.marginTop = value * 1 + "px";
   btn.style.marginTop = value * 1.5 + "px";
-  header.style.top = value * 0.5 + 'px';
+  header.style.top = value * 0.5 + "px";
 });

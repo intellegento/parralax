@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 11;
 }
 
 header .logo {
@@ -51,8 +52,7 @@ header ul li a {
   border-radius: 20px;
 }
 
-header ul li a:hover,
-header ul li a.active {
+header ul li a:hover {
   background: #fff;
   color: #2b1055;
 }
