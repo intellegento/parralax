@@ -1,6 +1,6 @@
 # Parralax
 
-### _Используемые технологии_
+### _use technology_
 
 ### HTML
 
